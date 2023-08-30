@@ -1,0 +1,26 @@
+{
+  "name": "technova-verify-bot",
+  "version": "1.0.0",
+  "description": "A Discord verification bot for Technova 2023.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node --require dotenv/config verify.js",
+    "dev": "nodemon --require dotenv/config verify.js"
+  },
+  "author": "Chun Ye",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
+    "google-spreadsheet": "^3.3.0",
+    "ioredis": "^5.2.2",
+    "redis": "^4.6.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
