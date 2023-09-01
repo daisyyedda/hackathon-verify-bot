@@ -65,7 +65,6 @@ client.on("ready", async () => {
           msg.author.send("Hacker role has already been assigned.");
           return;
         }
-        console.log(tokens.length);
         let myRegexp = /^!verify\s*(.*)/;
         let match = myRegexp.exec(msg.content);
         let token = match[1];
@@ -74,7 +73,6 @@ client.on("ready", async () => {
           let role = guild.roles.cache.find(
             (role) => role.name === HACKER_ROLE
           );
-
           member.roles.add(role);
           msg.author.send("Hacker role comfimed.");
           // remove the used token from the lisat
