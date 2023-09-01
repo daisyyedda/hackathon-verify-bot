@@ -1,1 +1,1 @@
-worker:node verify.js
+worker:node --require dotenv/config verify.js
