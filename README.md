@@ -8,7 +8,7 @@ A Discord verification bot for TechNova 2023.
    - DISCORD_TOKEN: The token for the bot you created.
    - GUILD_ID: Hackathon server Guild ID.
 3. Set up Google API to be able to use GoogleSpreadsheet.
-   - Copy the json to hackathon-verify-bot.json containing the credential.
+   - Create `hackathon-verify-bot.json` and copy the json containing the credential to it.
 4. Test and deploy it.
    
 # Demo
